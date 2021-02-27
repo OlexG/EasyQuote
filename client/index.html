@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+	<!-- CSS Reset -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+	<!-- Milligram CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+	<link rel="stylesheet" href="styles.css">
+	<title>EasyQuote</title>
+</head>
+<body>
+	<nav class="navigation">
+		<section class="container">
+		   <a class="navigation-title" href="/">
+			  <h1 class="title">EasyQuote</h1>
+		   </a>
+		   <ul class="navigation-list float-right">
+			  <li class="navigation-item"><a class="navigation-link" href="/">Home</a></li>
+			  <li class="navigation-item"><a class="navigation-link" href="/cite.html">Cite</a></li>
+		   </ul>
+		</section>
+	</nav>
+	<img class="logo" src = "images/logo.png">
+	<div class="container about">
+		<h1>Why Us?</h1>
+		<p>Has this ever happened to you? You are working on an essay or project with 50 tabs open. Your essay is filled with quotes from these tabs but there is one problem!
+			You forgot from which websites you took the quotes from. So now, you have to look at each quote
+			then use <em>Ctrl-F</em> and stick each website into EasyBib. Well fret no more. Our citation tool will parse your essay, look for quotes and cite them automtically. 
+		</p>
+		<h1>How does it work?</h1>
+		<p>We parse your text for quotes and look at the top 50 google results that come up when searching for these quotes. Then, for each result we look at the content of the page and check 
+			if any of it matches with a quote. If it does, we found a link! Currently the citation is in the form <blockquote>https://www.yoururl.com - Title</blockquote> however we plan to expand to a full citation later. Additionally,
+			your quotes may not always be found and sadly we coulnd't find a good api for looking at the "snippets" section for google (this section usually has the link). We would definetly implement this in the future though.
+		</p>
+	</div>
+</body>
+</html>
